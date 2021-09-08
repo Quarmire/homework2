@@ -1,0 +1,158 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="This is the personal webpage of Peter Minh An Le.<br> This website still in development.">
+              
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static 'resources/css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'resources/css/queries.css' %}">
+        <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+        <link rel="stylesheet" href="{% static 'css/grid.css' %}">
+        <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,300i,400' rel='stylesheet' type='text/css'>
+        
+        <title>Peter Le's Webpage</title>
+        
+    </head>
+    
+    
+    
+    <body>
+        
+        <header>
+            <nav>
+                <div class="row"> 
+                    <a href="#home"><img src="{% static 'resources/img/logo.png' %}" alt="logo" class="wolf-icon-white"></a>
+                    <ul class="main-nav">
+                        <li><a href="#1">Electronics</a></li>
+                        <li><a href="#1">Photography</a></li>
+                        <li><a href="#1">Music</a></li>
+                        <li><a href="#1">Art</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="intro-text-box">
+                <h1>WELCOME TO MY HOMEPAGE</h1>
+                <h5 class="intro-h5">A Website In Development</h5>
+            </div>
+
+        </header>
+        
+        <section class="section-electronics">
+            <div class="row-full">
+                <h2>Electronics</h2>
+                <p class="description-elec-first">What I do in some of my free time</p>
+            </div>
+            
+            <div class="row-full">
+                <div class="projects clearfix">
+                    
+                    <div class="col span-1-of-3 audio">
+                        <i class="ion-levels icon-big"></i>
+                        <h3>Audio</h3>
+                        <p class="description-elec">
+                            Amplifiers, Speakers, Microphones
+                        </p>
+                    </div>
+                    
+                    <div class="col span-1-of-3 peripherals">
+                        <i class="ion-monitor icon-big"></i>
+                        <h3>Peripherals</h3>
+                        <p class="description-elec">
+                            Wireless Monitor, Lighting, Gadgets
+                        </p>
+                    </div>
+                    
+                    <div class="col span-1-of-3 design">
+                        <i class="ion-edit icon-big"></i>
+                        <h3>Design</h3>
+                        <p class="description-elec">
+                            3D Printing, FreeCAD, HTML5
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-photography">
+            <div class="row">
+                    <h2>Photography</h2>
+                    <p>Capturing the significant moments of my life...<br>Or just plain beauty</p>
+            </div>
+            
+                    <ul class="photo-showcase clearfix">
+                        <li>
+                            <figure class="sample-photo">
+                                <img src="{% static 'resources/img/1-min.jpg' %}">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="sample-photo">
+                                <img src="{% static 'resources/img/2-min.jpg' %}">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="sample-photo">
+                                <img src="{% static 'resources/img/3-min.jpg' %}">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="sample-photo">
+                                <img src="{% static 'resources/img/4-min.jpg' %}">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="sample-photo">
+                                <img src="{% static 'resources/img/5-min.jpg' %}">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="sample-photo">
+                                <img src="{% static 'resources/img/6-min.jpg' %}">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="sample-photo">
+                                <img src="{% static 'resources/img/7-min.jpg' %}">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="sample-photo">
+                                <img src="{% static 'resources/img/8-min.jpg' %}">
+                            </figure>
+                        </li>
+                    </ul>
+            
+            <div class="row">
+                <div class="gallery">
+                
+                </div>
+            </div>
+            
+        </section>
+        
+    <script src="https://cdn.jsdelivr.net/npm/typeit@VERSION_NUMBER/dist/typeit.min.js"></script>
+    </body>
+
+    
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

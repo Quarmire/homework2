@@ -1,0 +1,20 @@
+/* Big Tablet to 1280px (Widths smaller than 1140px row) */
+@media only screen and (max-width: 1280px) {
+    
+    .intro-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+    
+}
+
+
+/*Small Tablet to Big Tablet (768 to 1023px) */
+@media only screen and (max-width: 1023px) {
+    
+    body {font-size: 18px;}
+    
+    section {padding: 60px;}
+}
